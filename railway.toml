@@ -1,6 +1,8 @@
 [build]
-builder = "RAILPACK"
+builder = "NIXPACKS"
+
+[deploy]
+startCommand = "php artisan serve --host=0.0.0.0 --port=$PORT"
 
 [variables]
-RAILPACK_PHP_VERSION = "8.4"
-COMPOSER_ALLOW_SUPERUSER = "1"
+NIXPACKS_PHP_VERSION = "8.4"
