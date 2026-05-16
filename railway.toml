@@ -1,0 +1,6 @@
+[build]
+builder = "RAILPACK"
+
+[variables]
+RAILPACK_PHP_VERSION = "8.4"
+COMPOSER_ALLOW_SUPERUSER = "1"
